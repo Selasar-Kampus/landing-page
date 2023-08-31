@@ -1,15 +1,5 @@
 import Link from "next/link";
-import {
-    menuItems,
-    pagesItems,
-    portfolioItems,
-    blogItems,
-} from "../data/menu";
-import {
-    isActiveLink,
-    isActiveParent,
-    isActiveParentChaild,
-} from "../../utils/linkActiveChecker";
+import {blogItems, menuItems, pagesItems, portfolioItems,} from "@/data/menu";
 
 import {useRouter} from "next/router";
 
