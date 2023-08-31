@@ -1,10 +1,7 @@
 import Link from "next/link";
 import {blogItems, menuItems, pagesItems, portfolioItems,} from "@/data/menu";
 
-import {useRouter} from "next/router";
-
 const MainMenu = () => {
-    const router = useRouter();
     return (
         <nav className="navbar navbar-expand-lg order-lg-2">
             <button
