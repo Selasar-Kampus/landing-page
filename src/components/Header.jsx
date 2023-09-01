@@ -3,7 +3,7 @@ import MainMenu from "./MainMenu";
 import Link from "next/link";
 import Image from "next/image";
 
-const Nav = () => {
+const Header = () => {
     const [navbar, setNavbar] = useState(false);
 
     const changeBackground = () => {
@@ -32,7 +32,7 @@ const Nav = () => {
                     <div className="logo order-lg-0">
                         <Link href="/" className="d-block">
                             <Image
-                                src="/images/logo/img.png"
+                                src="/images/logo/selasarkampus_logo.png"
                                 alt="logo"
                                 width={50}
                                 height={50}
@@ -57,4 +57,4 @@ const Nav = () => {
     );
 };
 
-export default Nav;
+export default Header;
