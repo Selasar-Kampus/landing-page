@@ -20,7 +20,7 @@ const MainMenu = () => {
                     <li className="d-block d-lg-none">
                         <div className="logo">
                             <Link href="/" className="d-block">
-                                <img src="/images/logo/selasarkampus_logo.png" alt="" width={95}/>
+                                <img src="/images/logo/img.png" alt="" width={95}/>
                             </Link>
                         </div>
                     </li>
