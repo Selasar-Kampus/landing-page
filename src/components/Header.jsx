@@ -1,3 +1,5 @@
+'use client'
+
 import { useEffect, useState } from 'react';
 import MainMenu from './MainMenu';
 import Link from 'next/link';

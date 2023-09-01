@@ -1,3 +1,5 @@
+'use client'
+
 import Link from "next/link";
 import {
     menuItems,
@@ -11,7 +13,7 @@ import {
     isActiveParentChaild,
 } from "../../utils/linkActiveChecker";
 
-import {useRouter} from "next/router";
+import { useRouter } from "next/navigation";
 
 const MainMenu = () => {
     const router = useRouter();

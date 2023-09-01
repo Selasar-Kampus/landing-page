@@ -1,20 +1,22 @@
 import Link from 'next/link';
-import Seo from '../components/Seo';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
 
-import AppBanner from '../../components/home-page/home-1/AppBanner';
-import Banner from '../../components/home-page/home-1/Banner';
-import Block from '../../components/home-page/home-1/Block';
+import Seo from '@/components/Seo';
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
+import DefaulHeader from "@/components/DefaulHeader";
 
-import Blog from '../../components/home-page/home-1/Blog';
-import ContactForm from '../../components/home-page/home-1/ContactForm';
-import Feature from '../../components/home-page/home-1/Feature';
-import Hero from '../../components/home-page/home-1/Hero';
-import IntroAbout from '../../components/home-page/home-1/IntroAbout';
-import Service from '../../components/home-page/home-1/Service';
-import Testimonial from '../../components/home-page/home-1/Testimonial';
-import WhyChoose from '../../components/home-page/home-1/WhyChoose';
+import AppBanner from '@/components/AppBanner';
+import Banner from '@/components/Banner';
+import Block from '@/components/Block';
+import Blog from '@/components/Blog';
+
+import ContactForm from '@/components/ContactForm';
+import Feature from '@/components/Feature';
+import Hero from '@/components/Hero';
+import IntroAbout from '@/components/IntroAbout';
+import Service from '@/components/Service';
+import Testimonial from '@/components/Testimonial';
+import WhyChoose from '@/components/WhyChoose';
 
 const Home = () => {
   return (
