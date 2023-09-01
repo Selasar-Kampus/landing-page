@@ -29,10 +29,12 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={`${inter.className} main-page-wrapper`}>
+      <body className={`${inter.className}`}>
+      <div className='main-page-wrapper'>
       <Nav/>
       {children}
       <ScrollToTop />
+      </div>
       </body>
 
     </html>
