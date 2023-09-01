@@ -2,7 +2,6 @@
 import Link from "next/link";
 import Seo from "@/components/Seo";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import Block from "@/components/Block";
 import Partners from "@/components/Partners";
 import Faq from "@/components/Faq";
@@ -11,7 +10,7 @@ import Team3 from "@/components/Team3";
 import VideoBlock from "@/components/VideoBlock";
 import Counter from "@/components/Counter";
 
-const about = () => {
+const About = () => {
   const features = [
     { text: "Amazing communication." },
     { text: "Best trending designing experience." },
@@ -28,15 +27,13 @@ const about = () => {
 
   return (
     <>
-      <Seo pageTitle="About Us" />
+      <Seo pageTitle="About Us V1" />
 
       {/* <!-- 
       =============================================
       Theme Default Menu
       ============================================== 	
       --> */}
-      <Header />
-
       {/* 
 			=============================================
 				Feature Section Fifty One
@@ -316,7 +313,7 @@ const about = () => {
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
                     <Link
-                      href="/src/pages/contact"
+                      href="/contact"
                       className="btn-twentyOne fw-500 tran3s"
                     >
                       Get Started Today!
@@ -336,9 +333,8 @@ const about = () => {
         Contact Section One
         ============================================== 
         */}
-      <Footer />
     </>
   );
 };
 
-export default about;
+export default About;

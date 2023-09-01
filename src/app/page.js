@@ -2,8 +2,6 @@ import Link from 'next/link';
 
 import Seo from '@/components/Seo';
 import Footer from '@/components/Footer';
-import Header from '@/components/Header';
-import DefaulHeader from "@/components/DefaulHeader";
 
 import AppBanner from '@/components/AppBanner';
 import Banner from '@/components/Banner';
@@ -27,7 +25,6 @@ const Home = () => {
 			Theme Default Menu
 			==============================================
       --> */}
-      <DefaulHeader />
       {/* <!--
 			=============================================
 			Theme Hero Banner

@@ -5,7 +5,7 @@ import MainMenu from './MainMenu';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const Header = () => {
+const Nav = () => {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
@@ -65,4 +65,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Nav;
