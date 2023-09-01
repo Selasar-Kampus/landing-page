@@ -5,27 +5,27 @@ import Image from "next/image";
 const teamMembers = [
   {
     id: 1,
-    name: "Zubayer Al Hasan",
-    role: "Developer",
-    imgSrc: "/images/team/img_04.jpg",
+    name: "Farih Muwaffaq",
+    role: "CEO / CTO",
+    imgSrc: "/images/team/farih.png",
   },
   {
     id: 2,
-    name: "Jannatul Ferdaus",
-    role: "CEO",
-    imgSrc: "/images/team/img_05.jpg",
+    name: "Satrio Sahasraya",
+    role: "COO",
+    imgSrc: "/images/team/satrio.png",
   },
   {
     id: 3,
-    name: "Rashed Kabir",
-    role: "Designer",
-    imgSrc: "/images/team/img_06.jpg",
+    name: "Tasya Yunita",
+    role: "CFO",
+    imgSrc: "/images/team/tasya.png",
   },
   {
     id: 4,
-    name: "Angelina Shelly",
-    role: "Analyst",
-    imgSrc: "/images/team/img_07.jpg",
+    name: "Kartika Zahirah E",
+    role: "CMO",
+    imgSrc: "/images/team/kartika.png",
   },
 ];
 
@@ -42,8 +42,8 @@ const Team3 = () => {
           <div className="team-block-two mt-40">
             <div className="img-meta position-relative">
               <Image
-                width={312}
-                height={281}
+                width={150}
+                height={300}
                 src={member.imgSrc}
                 alt={member.name}
                 className="lazy-img team-img w-100"
@@ -52,13 +52,9 @@ const Team3 = () => {
                 <h5 className="tx-dark fs-20 mb-5">{member.name}</h5>
                 <div className="tx-dark opacity-75">{member.role}</div>
               </div>
-              {/* /.info */}
             </div>
-            {/* /.img-meta */}
           </div>
-          {/* /.team-block-two */}
         </div>
-        /* End .col-3 */
       ))}
     </>
   );

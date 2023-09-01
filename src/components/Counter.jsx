@@ -5,16 +5,16 @@ import { useInView } from "react-intersection-observer";
 
 const data = [
   {
-    count: 20,
-    label: "Country Impacted",
-    unit: "billion",
+    count: 8,
+    label: "Events",
+    unit: "+",
     colClass: "col-sm-6",
     delay: "100",
   },
   {
-    count: 30,
+    count: 100,
     label: "Volunteer",
-    unit: "k+",
+    unit: "+",
     colClass: "col-lg-4 col-sm-6",
     delay: "200",
   },
@@ -52,7 +52,6 @@ const Counter = () => {
             </div>
             <p className="tx-dark fs-18 m0">{item.label}</p>
           </div>
-          {/* /.counter-block-three */}
         </div>
       ))}
     </>
