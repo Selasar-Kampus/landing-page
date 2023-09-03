@@ -35,11 +35,13 @@ const Blog = () => {
                 </h4>
               </Link>
               <div>
+              <div>
+              </div>
                 <Link
                   href={`/blog/${post.id}`}
-                  className="read-btn-two fw-500 tran3s"
+                  className="btn-outline-mainCol fw-500 tran3s"
                 >
-                  Read More
+                  Join Course
                 </Link>
               </div>
             </div>

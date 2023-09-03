@@ -32,10 +32,10 @@ const Nav = () => {
                     <div className="logo order-lg-0">
                         <Link href="/" className="d-block">
                             <Image
-                                src="/images/logo/img.png"
+                                src="/images/logo/logo.png"
                                 alt="logo"
-                                width={50}
-                                height={50}
+                                width={70}
+                                height={20}
                             />
                         </Link>
                     </div>

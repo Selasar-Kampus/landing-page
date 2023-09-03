@@ -7,7 +7,7 @@ import {useEffect} from "react";
 import "aos/dist/aos.css";
 import '../../styles/index.scss'
 import ScrollToTop from '@/components/common/ScrollTop';
-
+import FooterMain from '@/components/FooterMain';
 
 const inter = Inter({subsets: ['latin']})
 
@@ -39,6 +39,7 @@ export default function RootLayout({children}) {
         <div className='main-page-wrapper'>
             <Nav/>
             {children}
+            <FooterMain/>
             <ScrollToTop/>
         </div>
         </body>

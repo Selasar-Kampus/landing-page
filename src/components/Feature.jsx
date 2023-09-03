@@ -45,9 +45,55 @@ const Feature = () => {
     },
   ];
 
+  const services = [
+    {
+      title: (
+        <>
+          Major <br /> Simmulation.
+        </>
+      ),
+      delay: 100
+    },
+    {
+      title: (
+        <>
+          Education <br /> Consultation.
+        </>
+      ),
+      delay: 200
+    },
+    {
+      title: (
+        <>
+          Apptitude <br /> Test.
+        </>
+      ),
+      delay: 300
+    },
+    {
+      title: (
+        <>
+          Find <br /> Campus.
+        </>
+      ),
+      delay: 400
+    },
+    {
+      title: (
+        <>
+          Find <br /> Major.
+        </>
+      ),
+      delay: 500
+    }
+  ]
+
   return (
     <>
-      {features.map((feature, index) => (
+      <h3 className=" fw-500 tx-dark">
+          Our <span className="focuses-span">Services</span>
+      </h3>
+      {services.map((feature, index) => (
         <div
           className="col-lg-4 col-sm-6"
           key={index}
@@ -55,19 +101,19 @@ const Feature = () => {
           data-aos-delay={feature.delay}
         >
           <div
-            className={`card-style-fifteen tran3s position-relative mt-35`}
+            className={`card-style-services tran3s position-relative mt-35`}
             style={{ background: feature.background }}
           >
             <h4>{feature.title}</h4>
-            <p>{feature.description}</p>
-            <Image
+            {/* <p>{feature.description}</p> */}
+            {/* <Image
               width={feature.width}
               height={feature.height}
               layout="intrinsic"
               src={feature.icon}
               alt="icon"
               className="position-absolute"
-            />
+            /> */}
           </div>{" "}
           {/* /.card-style-fifteen */}
         </div>
