@@ -1,47 +1,45 @@
-'use client'
-
-import Image from "next/image";
+'use client';
 
 const Feature = () => {
   const features = [
     {
-      background: "#fffee7",
+      background: '#fffee7',
       title: (
         <>
           Regulated by <br /> WICO.
         </>
       ),
-      description: "100% Reliable",
-      icon: "images/icon/icon_100.svg",
-      width: "169",
-      height: "165",
-      delay: "100",
+      description: '100% Reliable',
+      icon: 'images/icon/icon_100.svg',
+      width: '169',
+      height: '165',
+      delay: '100',
     },
     {
-      background: "#FBF1FF",
+      background: '#FBF1FF',
       title: (
         <>
           Get Instant support <br /> all day.
         </>
       ),
-      width: "202",
-      height: "170",
-      description: "Claim Support",
-      icon: "images/icon/icon_101.svg",
-      delay: "200",
+      width: '202',
+      height: '170',
+      description: 'Claim Support',
+      icon: 'images/icon/icon_101.svg',
+      delay: '200',
     },
     {
-      background: "#EEFBFA",
+      background: '#EEFBFA',
       title: (
         <>
           Unbiased advice <br /> from expert.
         </>
       ),
-      width: "175",
-      height: "175",
-      description: "Consultation",
-      icon: "images/icon/icon_102.svg",
-      delay: "300",
+      width: '175',
+      height: '175',
+      description: 'Consultation',
+      icon: 'images/icon/icon_102.svg',
+      delay: '300',
     },
   ];
 
@@ -49,10 +47,10 @@ const Feature = () => {
     {
       title: (
         <>
-          Major <br /> Simmulation.
+          Major <br /> Simulation.
         </>
       ),
-      delay: 100
+      delay: 100,
     },
     {
       title: (
@@ -60,15 +58,15 @@ const Feature = () => {
           Education <br /> Consultation.
         </>
       ),
-      delay: 200
+      delay: 200,
     },
     {
       title: (
         <>
-          Apptitude <br /> Test.
+          Aptitude <br /> Test.
         </>
       ),
-      delay: 300
+      delay: 300,
     },
     {
       title: (
@@ -76,7 +74,7 @@ const Feature = () => {
           Find <br /> Campus.
         </>
       ),
-      delay: 400
+      delay: 400,
     },
     {
       title: (
@@ -84,20 +82,20 @@ const Feature = () => {
           Find <br /> Major.
         </>
       ),
-      delay: 500
-    }
-  ]
+      delay: 500,
+    },
+  ];
 
   return (
     <>
-      <h3 className=" fw-500 tx-dark">
-          Our <span className="focuses-span">Services</span>
+      <h3 className=' fw-500 tx-dark'>
+        Our <span className='focuses-span'>Services</span>
       </h3>
       {services.map((feature, index) => (
         <div
-          className="col-lg-4 col-sm-6"
+          className='col-lg-4 col-sm-6'
           key={index}
-          data-aos="fade-up"
+          data-aos='fade-up'
           data-aos-delay={feature.delay}
         >
           <div
@@ -114,7 +112,8 @@ const Feature = () => {
               alt="icon"
               className="position-absolute"
             /> */}
-          </div>{" "}
+          </div>
+          {' '}
           {/* /.card-style-fifteen */}
         </div>
       ))}

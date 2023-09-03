@@ -1,20 +1,10 @@
 import Link from 'next/link';
 
 import Seo from '@/components/Seo';
-import Footer from '@/components/Footer';
-
-import AppBanner from '@/components/AppBanner';
-import Banner from '@/components/Banner';
-import Block from '@/components/Block';
 import Blog from '@/components/Blog';
-
-import ContactForm from '@/components/ContactForm';
 import Feature from '@/components/Feature';
 import Hero from '@/components/Hero';
-import IntroAbout from '@/components/IntroAbout';
-import Service from '@/components/Service';
 import Testimonial from '@/components/Testimonial';
-import WhyChoose from '@/components/WhyChoose';
 
 const Home = () => {
   return (
@@ -53,7 +43,7 @@ const Home = () => {
                 <div
                   className='title-style-one text-center text-sm-start pb-40 lg-pb-20'
                   data-aos='fade-right'
-                > 
+                >
                   <h3 className='main-title fw-500 tx-dark m0'>Experience Your <span>Dream Major</span></h3>
                 </div>
                 {/* /.title-style-one */}
@@ -66,7 +56,7 @@ const Home = () => {
             {/* /.row */}
             <div className='text-center xs-mt-40'>
               <Link
-                href='/blog/blog-v2'
+                href='#'
                 className='btn-mainCol btn-twentyTwo fw-500 tran3s'
                 data-aos='fade-left'
               >
@@ -90,13 +80,13 @@ const Home = () => {
             <h2 className='main-title fw-500 tx-dark'>What Do</h2>
             <h2 className='fw-500'><span>They Say?</span></h2>
           </div>
-        <div className='inner-content'>
-          <div className='rating-home-slider'>
-            <Testimonial />
-          </div>
+          <div className='inner-content'>
+            <div className='rating-home-slider'>
+              <Testimonial />
+            </div>
 
-          {/* /.slider-wrapper */}
-        </div>
+            {/* /.slider-wrapper */}
+          </div>
         </div>
         {/* /.inner-content */}
       </div>
