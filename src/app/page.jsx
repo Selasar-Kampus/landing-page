@@ -10,32 +10,15 @@ const Home = () => {
   return (
     <>
       <Seo pageTitle='Insurance' />
-      {/* <!--
-      =============================================
-			Theme Default Menu
-			==============================================
-      --> */}
-      {/* <!--
-			=============================================
-			Theme Hero Banner
-			==============================================
-			--> */}
       <Hero />
-      {/* <!--
-			=============================================
-				Feature Section Thirty Four
-			==============================================
-			--> */}
       <div className='fancy-feature-thirtyFour mt-50'>
         <div className='container'>
           <div className='row gx-xxl-5'>
             <Feature />
           </div>
         </div>
-        {/* <!-- /.container --> */}
       </div>
-      {/* <!-- /.fancy-feature-thirtyFour --> */}
-      <div className='blog-section-three mt-140 mb-170 lg-mt-100 lg-mb-100'>
+      <div className='blog-section-three mt-140 mb-1 lg-mt-100 mb-1'>
         <div className='container'>
           <div className='position-relative'>
             <div className='row align-items-end'>
@@ -46,14 +29,11 @@ const Home = () => {
                 >
                   <h3 className='main-title fw-500 tx-dark m0'>Experience Your <span>Dream Major</span></h3>
                 </div>
-                {/* /.title-style-one */}
               </div>
             </div>
-            {/* /.row */}
             <div className='row gx-xxl-5'>
               <Blog />
             </div>
-            {/* /.row */}
             <div className='text-center xs-mt-40'>
               <Link
                 href='#'
@@ -66,29 +46,21 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/*
-      {/*=====================================================
-				Feedback Section Eleven
-			=====================================================
-			*/}
       <div
-        className='rating-home-section position-relative mt-100 pt-100 pb-70 lg-mt-120 lg-pt-70 lg-pb-50'
+        className='rating-home-section position-relative mt-1 pt-100 pb-70 lg-mt-1 lg-pt-70 lg-pb-50'
         data-aos='fade-up'
       >
         <div className='container d-flex h-auto flex-row row-cols-2'>
           <div className='title-style-one feedback-tittle'>
             <h2 className='main-title fw-500 tx-dark'>What Do</h2>
-            <h2 className='fw-500'><span>They Say?</span></h2>
+            <h2 className='fw-500'><span className='fw-bold'>They Say?</span></h2>
           </div>
-          <div className='inner-content'>
+          <div className='inner-content '>
             <div className='rating-home-slider'>
               <Testimonial />
             </div>
-
-            {/* /.slider-wrapper */}
           </div>
         </div>
-        {/* /.inner-content */}
       </div>
     </>
   );
