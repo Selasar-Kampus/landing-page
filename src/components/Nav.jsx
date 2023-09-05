@@ -47,12 +47,9 @@ const Nav = () => {
               StudyBox (Coming Soon)
             </Link>
           </div>
-          {' '}
-          {/* /.right-widget */}
           <MainMenu />
         </div>
       </div>
-      {/* /.inner-content */}
     </header>
   );
 };

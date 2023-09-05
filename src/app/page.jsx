@@ -9,7 +9,7 @@ import Testimonial from '@/components/Testimonial';
 const Home = () => {
   return (
     <>
-      <Seo pageTitle='Insurance' />
+      <Seo pageTitle='Selasar Kampus' />
       <Hero />
       <div className='fancy-feature-thirtyFour mt-50'>
         <div className='container'>
