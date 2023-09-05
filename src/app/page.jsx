@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import Seo from '@/components/Seo';
 import Blog from '@/components/Blog';
 import Feature from '@/components/Feature';
@@ -33,15 +31,6 @@ const Home = () => {
             </div>
             <div className='row gx-xxl-5'>
               <Blog />
-            </div>
-            <div className='text-center xs-mt-40'>
-              <Link
-                href='#'
-                className='btn-mainCol btn-twentyTwo fw-500 tran3s'
-                data-aos='fade-left'
-              >
-                View All Courses
-              </Link>
             </div>
           </div>
         </div>
