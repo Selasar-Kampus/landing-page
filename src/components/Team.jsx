@@ -19,13 +19,25 @@ const teamMembers = [
     id: 4,
     name: 'Raihan Romzi',
     role: 'CTO',
-    imgSrc: '/images/team/tasya.png',
+    imgSrc: '/images/team/romzi.png',
   },
   {
     id: 5,
     name: 'Kartika Zahirah E',
     role: 'CMO',
     imgSrc: '/images/team/kartika.png',
+  },
+  {
+    id: 6,
+    name: 'Ilhamullah Yusuf ',
+    role: 'CGO',
+    imgSrc: '/images/team/ilham.png',
+  },
+  {
+    id: 7,
+    name: 'Azka Ilman Sukardi',
+    role: 'CPO',
+    imgSrc: '/images/team/azka.png',
   },
 ];
 
@@ -40,13 +52,13 @@ const Team = () => {
           data-aos-delay={`${member.id * 100}`}
         >
           <div className='team-block-two mt-40'>
-            <div className='img-meta position-relative'>
+            <div className='img-meta position-relative '>
               <Image
-                width={150}
+                width={200}
                 height={300}
                 src={member.imgSrc}
                 alt={member.name}
-                className='lazy-img team-img w-100'
+                className='lazy-img team-img w-100 object-fit-cover'
               />
               <div className='info text-center'>
                 <h5 className='tx-dark fs-20 mb-5'>{member.name}</h5>

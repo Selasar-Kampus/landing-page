@@ -101,7 +101,7 @@ const About = () => {
                       height={300}
                       src={'/images/team/farih.png'}
                       alt={'Farih'}
-                      className='lazy-img team-img w-100'
+                      className='lazy-img team-img w-100 object-fit-cover'
                     />
                     <div className='info text-center'>
                       <h5 className='tx-dark fs-20 mb-5'>{'Farih'}</h5>
