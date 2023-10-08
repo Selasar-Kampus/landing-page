@@ -1,11 +1,11 @@
-'use client'
+'use client';
 
 import Nav from '@/components/Nav';
-import {Inter} from 'next/font/google'
-import Aos from "aos";
-import {useEffect} from "react";
-import "aos/dist/aos.css";
-import '../../styles/index.scss'
+import { Inter } from 'next/font/google';
+import Aos from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import '../../styles/index.scss';
 import ScrollToTop from '@/components/common/ScrollTop';
 import FooterMain from '@/components/FooterMain';
 
@@ -34,6 +34,9 @@ export default function RootLayout({children}) {
                 content="innovative education, Indonesian students, professionals, empowerment, career advancement, learning solutions, skill development, education in Indonesia, innovative learning, student growth, professional enhancement, skill-building, potential enhancement, Indonesian education, career growth, empowering learners"
             />
             <link rel="icon" href="/favicon.ico"/>
+            <title>
+                SelasarKampus - Unleashing potential through innovative education for Indonesian students and professionals.
+            </title>
         </head>
         <body className={`${inter.className}`}>
         <div className='main-page-wrapper'>
