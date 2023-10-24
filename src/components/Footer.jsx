@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React from 'react';
 
@@ -18,16 +18,24 @@ const Footer = () => {
 
   const socialIcons = [
     {
-      iconClass: 'fab fa-facebook-f',
-      link: '#',
+      iconClass: 'fab fa-instagram',
+      link: 'https://instagram.com/selasarkampus',
+    },
+    {
+      iconClass: 'fa-brands fa-tiktok',
+      link: 'https://www.tiktok.com/@selasarkampus',
+    },
+    {
+      iconClass: 'fab fa-youtube',
+      link: 'https://www.youtube.com/@SelasarKampus'
     },
     {
       iconClass: 'fab fa-twitter',
-      link: '#',
+      link: 'https://twitter.com/@selasarkampus'
     },
     {
       iconClass: 'fab fa-linkedin-in',
-      link: '#',
+      link: 'https://www.linkedin.com/company/selasar-kampus/',
     },
   ];
 
@@ -54,7 +62,16 @@ const Footer = () => {
           Kota Bandung, Jawa Barat
         </p>
         <ul className='d-flex social-icon style-none'>
-          {socialIcons.map((icon, index) => (
+          {socialIcons.slice(0, 3).map((icon, index) => (
+            <li key={index}>
+              <a href={icon.link} target='_blank' rel='noopener noreferrer'>
+                <i className={icon.iconClass} />
+              </a>
+            </li>
+          ))}
+        </ul>
+        <ul className='d-flex social-icon style-none mt-3'> {/* Add mt-3 class for margin-top */}
+          {socialIcons.slice(3).map((icon, index) => (
             <li key={index}>
               <a href={icon.link} target='_blank' rel='noopener noreferrer'>
                 <i className={icon.iconClass} />

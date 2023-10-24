@@ -145,10 +145,10 @@ const About = () => {
                 </div>
                 <div className='col-lg-5 ms-auto text-center text-lg-end'>
                   <Link
-                    href='https://www.youtube.com/@SelasarKampus'
+                    href='mailto:halo@selasarkampus.com'
                     className='btn-twentyOne fw-500 tran3s'
                   >
-                    Find out more
+                    Collaborate with us
                   </Link>
                 </div>
               </div>
